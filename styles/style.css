@@ -200,6 +200,9 @@ hr {
     .blog-info {
         margin-left: 0;
     }
+    .course {
+        padding: 0;
+    }
 }
 
 @media (min-width: 481px) and (max-width: 760px) {
@@ -218,4 +221,6 @@ hr {
     .blog-info {
         margin-left: 0;
     }
+    .course {
+        padding: 0;
 }
