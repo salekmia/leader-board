@@ -19,7 +19,7 @@ main {
 }
 
 .container {
-    width: 870px;
+    width: 860px;
     background-color: #ffffff;
     padding: 33px;
     margin-top: 20px;
@@ -122,9 +122,9 @@ hr {
     grid-column-gap: 30px;
 }
 
-.course {
+/* .course {
     padding: 20px;
-}
+} */
 
 .course:first-child{
     padding-left: 0;
@@ -135,7 +135,7 @@ hr {
 }
 
 .course-banner img {
-    width: 224px;
+    width: 210px;
     height: 104px;
 }
 
@@ -185,7 +185,7 @@ hr {
 \*-------------------*/
 @media (max-width: 480px) {
     .container {
-        width: 100%;
+        width: 80%;
     }
     .players, .blogs, .courses {
         grid-template-columns: repeat(1, 1fr);
@@ -197,12 +197,12 @@ hr {
         display: flex;
         flex-direction: column;
     }
-    .blog-info {
+    /* .blog-info {
         margin-left: 0;
     }
     .course {
         padding: 0;
-    }
+    } */
 }
 
 @media (min-width: 481px) and (max-width: 992px) {
@@ -223,4 +223,5 @@ hr {
     }
     .course {
         padding: 0;
+    }
 }
